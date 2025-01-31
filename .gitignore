@@ -1,0 +1,8 @@
+checkpoints*
+.vscode/
+__pycache__/
+*/__pycache__/
+wandb/
+data/
+model/
+wandb*

@@ -1,0 +1,33 @@
+# python 3.8.12
+torch==2.0.0 
+torchvision==0.15.1 
+torchaudio==2.0.1
+transformers==4.31.0
+tokenizers==0.13.3
+datasets==2.20.0
+huggingface_hub==0.28.0
+evaluate==0.4.2
+numpy==1.24.4
+pandas==2.0.0
+scipy==1.10.0
+scikit-learn==1.3.0
+matplotlib==3.7.0
+bitsandbytes==0.43.1
+wandb==0.17.3
+loguru==0.7.2
+tensorly==0.8.1
+nvitop==1.3.2
+lion-pytorch==0.2.2
+
+## To create a virtual environment
+
+# git clone
+# conda create -n loro python=3.8.12
+# conda activate loro
+# cd ./LORO-main
+# pip install -r requirements.txt
+
+## To run the code
+
+# bash scripts/loro_c4/llama_60m.sh
+# bash scripts/loro_c4/llama_130m.sh

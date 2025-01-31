@@ -1,0 +1,9 @@
+cff-version: 1.0.0
+title: "LORO: Parameter and Memory Efficient Pretraining via Low-rank Riemannian Optimization"
+version: 1.0.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Zhanfeng"
+    given-names: "Mo"
+year: 2025
+repository-code: "https://openreview.net/forum?id=i0zzO7Hslk"
