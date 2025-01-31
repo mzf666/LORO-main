@@ -3,7 +3,7 @@ title: "LORO: Parameter and Memory Efficient Pretraining via Low-rank Riemannian
 version: 1.0.0
 message: "If you use this software, please cite it as below."
 authors:
-  - family-names: "Zhanfeng"
-    given-names: "Mo"
+  - family-names: "Mo"
+    given-names: "Zhanfeng"
 year: 2025
 repository-code: "https://openreview.net/forum?id=i0zzO7Hslk"
