@@ -155,6 +155,12 @@ CUDA_VISIBLE_DEVICES=0 python run_glue.py \
 
 ---
 
+## Thanks 
+
+This repo is heavily borrowed from [GaLore](https://github.com/jiaweizzhao/GaLore).
+
+---
+
 ## Citation
 
 ```bibtex
@@ -167,3 +173,4 @@ CUDA_VISIBLE_DEVICES=0 python run_glue.py \
     url={https://openreview.net/forum?id=i0zzO7Hslk}
 }
 ```
+
