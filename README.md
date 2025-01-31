@@ -130,7 +130,7 @@ CUDA_VISIBLE_DEVICES=0 torchrun --standalone --nproc_per_node 1 run_c4.py \
 ```
 
 ### Fine-Tuning RoBERTa on GLUE tasks
-`run_glue.py` is the main script for fine-tuning RoBERTa models on GLUE tasks with LORO. Notice that in fine-tuning scenarios, we adopt the LoRA parameterization $\mathbf{W}+\mathbf{BA}$, with $\mathbf{W}$ is the full-size pretrained weight and we only train the low-rank factors $\mathbf{B}$ and $\mathbf{A}$. An example script is shown below:
+`run_glue.py` is the main script for fine-tuning RoBERTa models on GLUE tasks with LORO. Notice that in fine-tuning scenarios, we adopt the LoRA parameterization $\mathbf{W}+\mathbf{BA}$, where $\mathbf{W}$ is the full-size pretrained weight and we only train the low-rank factors $\mathbf{B}$ and $\mathbf{A}$. An example script is shown below:
 
 ```bash
 CUDA_VISIBLE_DEVICES=0 python run_glue.py \
