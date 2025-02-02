@@ -1,4 +1,4 @@
-# Official Implementation of Low-rank Riemannian Optimizer (LORO)
+# Official Implementation of Low-rank Riemannian Optimizer (ICLR 2025)
 
 ## Overview
 
